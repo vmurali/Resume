@@ -1,0 +1,58 @@
+\documentclass{article}
+\title{Formal Deductive Verification of Computer Systems}
+\date{}
+\author{Muralidaran Vijayaraghavan}
+\begin{document}
+\maketitle
+Bugs, or errors, in computer systems have become so commonplace that it is
+difficult to imagine a world where all systems behave perfectly without bugs.
+It is taken for granted that every system that is developed is going to be
+buggy. Therefore companies spend a lot of resources and effort into detecting
+bugs in computer programs. The current state-of-the-art methodology in most
+companies for detecting these bugs involve randomized testing -- in order to
+verify if a given program is working, the program is supplied with random
+inputs and the output is checked, and this process is repeated till a wrong
+output is detected. There are two big limitations to this approach -- (a) the
+inputs are selected randomly, so it is possible to certify a buggy program as
+correct because the random selection did not select the input that exposes the
+buggy behavior and (b) even if a bug is found, there is no way to figure out
+which part of the program is buggy and correct it in order to resolve the bug.
+
+Because of these limitations, industry has been slowly adopting formal
+verification techniques, called \emph{model checking}, to check for program
+correctness. This is akin to running all possible inputs to a given program
+(instead of randomly selecting inputs) and proving that each input produces a
+correct output. The actual techniques optimize this process considerably as
+exhaustively listing all the inputs is not practically feasible even for simple
+programs like \emph{sorting}. But even with these optimizations, model checking
+techniques do not scale well to real world programs.
+
+In my research, I am to develop a new methodology for writing programs that
+forces the designer of the programs to mathematically prove that the program
+adheres to a much simpler specification. For example, if the designer is
+writing a program to sort a list of numbers, then the specification of the
+program is simply that the output should be a sorted list of the inputs, and
+the designer of the sorting program has to prove that his or her program indeed
+satisfies the specification. While the proof is supplied by the programmer, the
+correctness of the proof is verified by a tool called a ``proof assistant'' or
+``theorem prover''. These proof assistants are tools that take a proof of a
+theorem as input and automatically verify that the proof follows mathematical
+logic. As long as the implementation of a single (small) proof assistant is
+correct, any program written by the designer is guaranteed to meet the
+specifications as long as he supplies a proof for the same. I am aiming to use
+such a methodology for developing all kinds of computer systems, starting from
+hardware circuits and going up the software stack to develop multiprocessor
+concurrent programs -- the underlying theory behind all these systems are
+similar if not identical.
+
+With this research I hope to change the landscape of verification. The designer
+of a program will have considerably more responsibilities in terms of supplying
+a proof that his program meets the specifications, and there will be no need
+for a separate verification team that performs randomized testing. If there is
+still a separate verification team, it would interact closely with the designer
+in proving that the program meets the specification -- the close interaction
+follows from the need to understand what the program is doing in order to prove
+it as opposed to randomly selecting inputs. We already have several promising
+results in the domain of hardware verification.
+
+\end{document}
