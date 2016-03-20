@@ -17,39 +17,47 @@
 
     \vspace{-7mm}
     %__________________________________________________________________________________________________________________
-    % Research Interests
-    \section{\mysidestyle Research\\Interests}
+    % Interests
+    \section{\mysidestyle Interests}
 
-    Automated theorem proving, formal verification and high-level languages for hardware design,\\
-    correct-by-construction approach to hardware design, Computer architecture
+    Computer Architecture, Formal Verification, Proof Assistants, Distributed System Design, Programming Language Design\\
 
-    \vspace{-3mm}
+    \vspace{-5mm}
+
+    \section{\mysidestyle Programming Languages}
+    \begin{list2}
+    \item \emph{Functional languages:} Haskell
+    \item \emph{Imperative languages:} C, C++
+    \item \emph{Hardware description languages:} Verilog, Bluespec
+    \item \emph{Theorem provers:} Coq
+    \end{list2}
+
     %__________________________________________________________________________________________________________________
     % Education
     \section{\mysidestyle Education}
 
     \textbf{Massachusetts Institute of Technology}, Cambridge, MA \\
     \vspace{-2mm}
-    Ph.D., Electrical Engineering and Computer Science, \hfill \textbf{GPA: 5.0/5.0 \textit{Expected: Fall 2014}}\\
+    Ph.D., Electrical Engineering and Computer Science, \hfill \textbf{GPA: 5.0/5.0 \textit{February 2016}}\\
     \vspace{-2mm}
     \begin{list2}
-        \item Thesis topic: \textit{Specification and Formal Verification of Cache Coherence Protocols and Memory Models}
-        \item Advisor:  Prof. Arvind
-				\item The advent of highly concurrent, large scale distributed systems,
-dramatically increases the impact of low-probability concurrency bugs. Because
-of this, it is increasingly important that real systems are formally verified.
-Current formal verification approaches can be divided into two categories: ones
-which are highly automated but requires state space exploration limiting its
-scalability (model checking), and those which are fully scalable but require
-significant human intervention to provide deep insights and guide the tool
-towards a complete proof (theorem proving).
-This thesis lowers the human effort of theorem proving for distributed systems.
-The verification of a system is factored into a generic reusable library
-conveying the key insights of the domain, and the implementation-specific details.
-This effectively provides a domain-specific reusable verification system which
-can naturally fit into a designer's tool flow.
-This is shown concretely in the context of cache coherence protocols, memory
-models, and their implementations.
+        \item Thesis topic: \textit{Modular Verification of Hardware Systems}
+        \item Advisor:  Prof. Arvind, Assoc. Prof. Adam Chlipala
+%				\item The advent of highly concurrent, large scale distributed systems,
+%dramatically increases the impact of low-probability concurrency bugs. Because
+%of this, it is increasingly important that real systems are formally verified.
+%Current formal verification approaches can be divided into two categories: ones
+%which are highly automated but requires state space exploration limiting its
+%scalability (model checking), and those which are fully scalable but require
+%significant human intervention to provide deep insights and guide the tool
+%towards a complete proof (theorem proving).
+%This thesis lowers the human effort of theorem proving for distributed systems.
+%The verification of a system is factored into a generic reusable library
+%conveying the key insights of the domain, and the implementation-specific details.
+%This effectively provides a domain-specific reusable verification system which
+%can naturally fit into a designer's tool flow.
+%This is shown concretely in the context of cache coherence protocols, memory
+%models, and their implementations.
 
 % There are two components in this thesis. The first component
 %involves using Coq to model realistic directory-based hierarchical invalidation
@@ -79,20 +87,28 @@ models, and their implementations.
 
     \textbf{Research Intern}, IBM T.J. Watson Research Center, Yorktown Heights, NY\\ 
     Supervisor: Dr. Kattamuri Ekanadham \\
-    Developed a high-level language for writing synchronous hardware modules,
-    and a tool to convert them automatically to latency-tolerant modules.\hfill \textbf{\textit{Summer 2010}}\\
+%    Developed a high-level language for writing synchronous hardware modules,
+%    and a tool to convert them automatically to latency-tolerant modules.
+\hfill \textbf{\textit{Summer 2010}}\\
 
     \vspace{-7mm}
     \textbf{Research Intern}, VSSAD group, Intel Corporation, Hudson, MA\\
     Supervisor: Prof. Joel Emer \\
-    Helped develop \emph{HASim}, for building FGPA-based performance
-          models for faster simulations and performance studies. Built an out-of-order superscalar
-          processors based on MIPS R10000 using this infrastructure. \hfill \textbf{\textit{Summer 2007, Summer 2008}}\\
+%    Helped develop \emph{HASim}, for building FGPA-based performance
+%          models for faster simulations and performance studies. Built an out-of-order superscalar
+%          processors based on MIPS R10000 using this infrastructure. 
+\hfill \textbf{\textit{Summer 2007, Summer 2008}}\\
     \vspace{-9mm}
     %__________________________________________________________________________________________________________________
     % Publications
     \section{\mysidestyle Selected Publications}
     \begin{enumerate}
+    \item \textbf{Vijayaraghavan, M.}, Chlipala, A., Arvind, Dave, N.
+    ``Modular Deductive Verification of Multiprocessor Hardware Designs'' \textit{CAV 2015}
+    \item Yu, X., \textbf{Vijayaraghavan, M.}, Devadas, S.
+    ``A Proof of Correctness for the Tardis Cache Coherence Protocol'' \textit{CoRR arXiv:1505.06459 2015}
+    \item Karczmarek, M., Arvind, \textbf{Vijayaraghavan, M.}
+    ``A new synthesis procedure for atomic rules containing multi-cycle function blocks'' \textit{MEMOCODE 2014}
     \item \textbf{Vijayaraghavan, M.}, Dave, N., Arvind.
     ``Distributed Modular Hardware Compilation of Guarded Atomic Actions'' \textit{MEMOCODE 2013}
     \item Khan, A., \textbf{Vijayaraghavan, M.}, Boyd-Wickizer, S., Arvind.``Fast and cycle-accurate modeling of 
