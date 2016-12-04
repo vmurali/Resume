@@ -1,0 +1,75 @@
+Quick performance models quickly: Closely-coupled partitioned simulation on FPGAs
+M Pellauer, M Vijayaraghavan, M Adler, J Emer
+Performance Analysis of Systems and software, 2008. ISPASS 2008. IEEE ...	citedby: 41
+
+	Hardware acceleration of matrix multiplication on a xilinx fpga
+N Dave, K Fleming, M King, M Pellauer, M Vijayaraghavan
+Formal Methods and Models for Codesign, 2007. MEMOCODE 2007. 5th IEEE/ACM ...	cited by: 33
+
+	A-Ports: An efficient abstraction for cycle-accurate performance models on FPGAs
+M Pellauer, M Vijayaraghavan, M Adler, J Emer
+Proceedings of the 16th international ACM/SIGDA symposium on Field ...	cited by: 32
+
+	Bounded dataflow networks and latency-insensitive circuits
+M Vijayaraghavan, A Arvind
+Proceedings of the 7th IEEE/ACM international conference on Formal Methods ...	cited by: 31
+
+	From WiFi to WiMAX: Techniques for high-level IP reuse across Different OFDM protocols
+MC Ng, M Vijayaraghavan, N Dave, G Raghavan, J Hicks
+Proceedings of the 5th IEEE/ACM International Conference on Formal Methods ...	cited by: 16
+
+	A-port networks: Preserving the timed behavior of synchronous systems for modeling on fpgas
+M Pellauer, M Vijayaraghavan, M Adler, J Emer
+ACM Transactions on Reconfigurable Technology and Systems (TRETS) 2 (3), 16	cited by: 13
+
+	Arvind. From WiFI to WiMAX: Techniques for IP Reuse Across Different OFDM Protocols
+MC Ng, M Vijayaraghavan, G Raghavan, N Dave, J Hicks
+Proceedings of Formal Methods and Models for Codesign (MEMOCODE)	cited by: 11
+
+	Fast and cycle-accurate modeling of a multicore processor
+A Khan, M Vijayaraghavan, S Boyd-Wickizer
+Performance Analysis of Systems and Software (ISPASS), 2012 IEEE ...	cited by: 8
+
+	Design contest overview: Combined architecture for network stream categorization and intrusion detection (CANSCID).
+M Pellauer, A Agarwal, A Khan, MC Ng, M Vijayaraghavan, F Brewer, ...
+MEMOCODE 10, 69-72	cited by: 8
+
+	Arvind and J Emer. Quick Performance Models Quickly: Timing-Directed Simulation on FPGAs
+M Pellauer, M Vijayaraghavan, M Adler
+Proceedings of ISPASS	cited by: 7
+
+	High-throughput Pipelined Mergesort.
+K Fleming, M King, MC Ng, A Khan, M Vijayaraghavan
+MEMOCODE, 155-158	cited by: 6
+
+	A Proof of Correctness for the Tardis Cache Coherence Protocol
+X Yu, M Vijayaraghavan, S Devadas
+arXiv preprint arXiv:1505.06459	cited by: 4
+
+	Modular compilation of guarded atomic actions.
+M Vijayaraghavan, N Dave, Arvind
+MEMOCODE, 177-188	cited by: 1
+
+	Implementing a fast cartesian-polar matrix interpolator
+A Agarwal, N Dave, K Fleming, A Khan, M King, MC Ng, ...
+Proceedings of the 7th IEEE/ACM international conference on Formal Methods ...	cited by: 1
+
+	Modular Deductive Verification of Multiprocessor Hardware Designs
+M Vijayaraghavan, A Chlipala, N Dave
+Computer Aided Verification, 109-127 (no citations yet)
+
+	A new synthesis procedure for atomic rules containing multi-cycle function blocks
+M Karczmarek, M Vijayaraghavan
+Formal Methods and Models for Codesign (MEMOCODE), 2014 Twelfth ACM/IEEE ...		2014 (no citations yet)
+
+	Hardware synthesis from multicycle rules
+M Karczmarek, A Mithal, M Vijayaraghavan
+US Patent 8,350,594		(no citations yet)
+
+	A general technique for deterministic model-cycle-level debugging
+A Khan, M Vijayaraghavan
+Formal Methods and Models for Codesign (MEMOCODE), 2012 10th IEEE/ACM ...	(no citations yet)
+
+	Theory of composable latency-insensitive refinements
+M Vijayaraghavan
+Massachusetts Institute of Technology	(no citations yet)
