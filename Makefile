@@ -1,7 +1,6 @@
-resume.pdf: resume.tex resume.cls statement.tex radhika.tex
+resume.pdf: resume.tex resume.cls statement.tex
 	pdflatex resume.tex
 	pdflatex statement.tex
-	pdflatex radhika.tex
 	cp resume.pdf MuraliVijayaraghavanResume.pdf
 
 .PHONY: clean
